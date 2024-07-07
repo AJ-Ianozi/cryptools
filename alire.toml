@@ -1,0 +1,16 @@
+name = "cryptools"
+description = "Just wrapping crypto functions that are useful to me"
+version = "0.1.0-dev"
+
+authors = ["AJ Ianozi"]
+maintainers = ["AJ Ianozi <aj@ianozi.com>"]
+maintainers-logins = ["aj-ianozi"]
+licenses = "MIT"
+website = ""
+tags = []
+
+[[depends-on]]
+aws = "^24.0.0"
+pbkdf2 = "^3.0.0"
+sparknacl = "^4.0.0"
+system_random = "^1.0.0"
