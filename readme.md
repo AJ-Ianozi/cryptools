@@ -19,7 +19,7 @@ procedure Sign_String is
 begin
    Initialize (Public_Key, Secret_Key);
    declare
-      Signed_Str : constant Byte_Seq := Sign_String (Known_String, Secret_Key);
+      Signed_Str : constant Byte_Seq := Sign_String ("Hello", Secret_Key);
    begin
       Put_Line ("String is:");
       Put_Line (Open_String (Status, Signed_Str, Public_Key));
