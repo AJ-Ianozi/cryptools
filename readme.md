@@ -2,7 +2,7 @@
 
 This is just some wrappers that I made for my own benefit and I decided to share it with the world (and also so I can link it into my alire pins).
 
-It provides functions for generating public/private keys & signing with those keys (thanks to [SPARKNaCl](https://github.com/rod-chapman/SPARKNaCl)), password hashing (thanks to [pbkdf2](https://github.com/AntonMeep/pbkdf2)), and random numbers (thanks to [system_random](https://github.com/AntonMeep/system_random)).  Check out the [spec file](src/cryptools.ads) or the [test program](tests/src/cryptools.ads) for documentation and examples.
+It provides functions for generating public/private keys & signing with those keys (thanks to [SPARKNaCl](https://github.com/rod-chapman/SPARKNaCl)), password hashing (thanks to [pbkdf2](https://github.com/AntonMeep/pbkdf2)), and random numbers (thanks to [system_random](https://github.com/AntonMeep/system_random)).  Check out the [spec file](src/cryptools.ads) or the [test program](tests/src/cryptools.adb) for documentation and examples.
 
 If you find a bug absolutely report it, but I'm probably not providing any support if it gets super complicated, so use at your own risk!
 
